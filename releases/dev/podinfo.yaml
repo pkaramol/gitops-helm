@@ -16,7 +16,7 @@ spec:
   values:
     image: pkaramol/podinfo:dev-ek40semb
     service:
-      type: NodePort
+      type: ClusterIP
     ingress:
       enabled: true
     replicaCount: 1
