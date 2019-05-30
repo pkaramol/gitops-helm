@@ -15,6 +15,8 @@ spec:
     ref: master
   values:
     image: stefanprodan/podinfo:dev-hdtwcel9
+    ingress:
+      enabled: true
     replicaCount: 1
     hpa:
       enabled: false
